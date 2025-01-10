@@ -35,6 +35,7 @@ public class JwtFilter extends OncePerRequestFilter {
         return null;
     }
 
+    @SuppressWarnings("null")
     @Override
     protected void doFilterInternal(HttpServletRequest request, 
                                     HttpServletResponse response, 
